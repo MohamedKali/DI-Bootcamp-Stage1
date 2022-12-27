@@ -6,11 +6,11 @@ if taille>10:
 elif taille<10:
 	print("chaîne pas assez longue")
 else:
-	print("votre chaine contient exactement 10 caractere")
+	print("votre chaine contient exactement 10 caractere\n\n")
 
 	#2-
 print(f"le premier caractere de votre chaine est {chaine[0]}")
-print(f"le dernier caractere de votre chaine est {chaine[taille-1]}")
+print(f"le dernier caractere de votre chaine est {chaine[taille-1]}\n")
 
 	#3-
 taille=len(chaine)
@@ -35,5 +35,4 @@ chaine_melanger=''.join(ma_liste)
 print(chaine_melanger)
 
 
-	
 
