@@ -1,9 +1,7 @@
 """
  #Exercice 1 : Bonjour Le Monde
-print('Hello Word')
-print('Hello Word')
-print('Hello Word')
-print('Hello Word')
+print('Hello Word\n'*4)
+
 """
 
 """
