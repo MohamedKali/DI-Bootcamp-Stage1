@@ -1,0 +1,5 @@
+chaine=input("entre une sequence de mot separer par des virgules (ex : without,hello,bag,world) :")
+liste_chaine=chaine.split(',')
+liste_chaine.sort()
+liste_chaine=','.join(liste_chaine)
+print(liste_chaine)
